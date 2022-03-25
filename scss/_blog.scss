@@ -1,0 +1,195 @@
+main {
+    #page-heading {
+        .inner-content {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 65px;
+            margin-top: 80px;
+            padding-bottom: 80px;
+            text-align: center;
+        }
+    }
+    .full-width-blog {
+        margin-top: 0;
+        .entries-item {
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            .down-content {
+                margin-top: 15px;
+                .date {
+                    font-size: 13px;
+                    color: #7a7a7a;
+                    font-style: italic;
+                    display: inline-block;
+                    a {
+                        color: #000;
+                    }
+                }
+                a {
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-top: 5px;
+                        margin-bottom: 10px;
+                        color: #000;
+                    }
+                }
+                p {
+                    margin-bottom: 25px;
+                    font-size: 15px;
+                    color: #4a4a4a;
+                    line-height: 28px;
+                }
+                .border-dark-button {
+                    border-top: none;
+                    padding-top: 0px;
+                    text-align: left;
+                    margin-top: 0px;
+                    a {
+                        display: inline-block;
+                        font-size: 13px;
+                        font-weight: 700;
+                        border: 2px solid #2a2a2a;
+                        color: #2a2a2a;
+                        text-transform: uppercase;
+                        background-color: transparent;
+                        -webkit-transition: all .3s;
+                        transition: all .3s;
+                        padding: 16px 25px;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-filter {
+        .sidebar-widget {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            h4 {
+                font-size: 15px;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+        }
+        .search-box {
+            input {
+                width: 100%;
+                height: 44px;
+                border-radius: 5px;
+                border: 1px solid #2a2a2a;
+                font-size: 14px;
+                padding: 0px 15px;
+                background-color: transparent;
+                outline: none;
+            }
+        }
+        .recent-posts {
+            ul {
+                padding: 0;
+                li {
+                    display: inline-block;
+                    margin-bottom: 20px;
+                    width: 100%;
+                    img {
+                        float: left;
+                        margin-right: 15px;
+                        width: 15%;
+                    }
+                    .right-content {
+                        display: inline-block;
+                        h6 {
+                            color: #2a2a2a;
+                            font-size: 15px;
+                            font-weight: 600;
+                            margin-top: 12px;
+                            margin-bottom: 5px;
+                            text-transform: capitalize;
+                            -webkit-transition: all .3s;
+                            transition: all .3s;
+                        }
+                        span {
+                            font-size: 13px;
+                            color: #7a7a7a;
+                            font-style: italic;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+        .products-categories {
+            ul {
+                padding: 0;
+                li {
+                    margin-bottom: 6px;
+                    width: 100%;
+                    a {
+                        font-size: 13px;
+                        color: #777;
+                        em {
+                            font-style: normal;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+        .promotion-widget {
+            .thumb {
+                position: relative;
+                img {
+                    width: 100%;
+                    overflow: hidden;
+                }
+                .inner-content {
+                    position: absolute;
+                    bottom: 0;
+                    left: 20px;
+                    .banner {
+                        background-color: #2a2a2a;
+                        color: #fff;
+                        font-size: 10px;
+                        letter-spacing: 0.25px;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        padding: 7px 10px;
+                        border-radius: 5px;
+                        display: inline-block;
+                    }
+                    h4 {
+                        color: #2a2a2a;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        em {
+                            font-style: normal;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:992px) {
+    main {
+        section {
+            margin-top: 85px;
+            .grid-right-sidebar-blog {
+                .sidebar-filter {
+                    padding-top: 0px;
+                    margin-top: 0px;
+                    border-top: none;
+                    margin-left: 30px;
+                }
+            }
+        }
+        .sidebar-filter {
+            margin-left: 30px;
+        }
+    }
+}
